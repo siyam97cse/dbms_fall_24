@@ -25,4 +25,5 @@ INSERT INTO employees (employee_id, first_name, last_name, department, salary) V
 
 SELECT *
 FROM employees
-WHERE department = 'Sales';
+WHERE salary > 8000;
+
